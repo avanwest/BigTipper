@@ -20,7 +20,29 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uKV-b1-55l">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="105"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tip Calculator" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WuT-sT-SAf">
+                                        <rect key="frame" x="24" y="20" width="156.5" height="85"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                        <color key="textColor" red="0.15891786975654426" green="0.1643004441624365" blue="0.1021086021780115" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="L0c-So-5rj">
+                                        <rect key="frame" x="302" y="47" width="51" height="31"/>
+                                        <color key="onTintColor" red="0.12797707259999999" green="0.51943210660000005" blue="0.12915651750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="themeToggled:" destination="BYZ-38-t0r" eventType="valueChanged" id="Cf2-FH-Fpi"/>
+                                        </connections>
+                                    </switch>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="L0c-So-5rj" secondAttribute="trailing" constant="24" id="3Zl-C1-tk1"/>
+                                    <constraint firstAttribute="bottom" secondItem="WuT-sT-SAf" secondAttribute="bottom" id="Pc2-6O-tE3"/>
+                                    <constraint firstItem="WuT-sT-SAf" firstAttribute="leading" secondItem="uKV-b1-55l" secondAttribute="leading" constant="24" id="W9Z-1H-ohi"/>
+                                    <constraint firstItem="L0c-So-5rj" firstAttribute="centerY" secondItem="WuT-sT-SAf" secondAttribute="centerY" id="kTO-ck-Xvg"/>
+                                    <constraint firstItem="L0c-So-5rj" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="WuT-sT-SAf" secondAttribute="trailing" constant="20" id="vcX-4I-5lS"/>
+                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C7J-7X-cEk">
                                 <rect key="frame" x="15" y="129" width="345" height="203"/>
@@ -47,6 +69,7 @@
                             <constraint firstItem="C7J-7X-cEk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="NdU-PR-qpq"/>
                             <constraint firstItem="Iu4-3g-8Vk" firstAttribute="top" secondItem="C7J-7X-cEk" secondAttribute="bottom" constant="24" id="O4A-O0-bqY"/>
                             <constraint firstItem="uKV-b1-55l" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Z3a-M1-KAC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="WuT-sT-SAf" secondAttribute="top" id="cqd-yl-MlZ"/>
                             <constraint firstItem="hE9-P7-3nb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="dI8-pk-6Gz"/>
                             <constraint firstItem="hE9-P7-3nb" firstAttribute="top" secondItem="Iu4-3g-8Vk" secondAttribute="bottom" constant="24" id="eaD-Iv-TP0"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="C7J-7X-cEk" secondAttribute="trailing" constant="15" id="ezw-eN-qZa"/>
@@ -59,10 +82,15 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="headerView" destination="uKV-b1-55l" id="Hc1-x9-46R"/>
+                        <outlet property="themeSwitch" destination="L0c-So-5rj" id="qES-em-ERG"/>
+                        <outlet property="titleLabel" destination="WuT-sT-SAf" id="0cH-DK-qd2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="24.800000000000001" y="31.934032983508249"/>
+            <point key="canvasLocation" x="348" y="31"/>
         </scene>
     </scenes>
 </document>
