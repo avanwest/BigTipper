@@ -75,9 +75,9 @@ class ViewController: UIViewController {
         case 0:
             tipPercent = 0.20
         case 1:
-            tipPercent = 0.23
-        case 2:
             tipPercent = 0.25
+        case 2:
+            tipPercent = 0.30
         default: preconditionFailure("Unexpected index.")
         }
         
