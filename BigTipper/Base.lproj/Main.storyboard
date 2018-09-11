@@ -29,7 +29,7 @@
                                     </label>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="L0c-So-5rj">
                                         <rect key="frame" x="302" y="47" width="51" height="31"/>
-                                        <color key="onTintColor" red="0.12797707259999999" green="0.51943210660000005" blue="0.12915651750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="onTintColor" red="0.069123139001705386" green="0.2782558692893401" blue="0.071142060623365325" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <action selector="themeToggled:" destination="BYZ-38-t0r" eventType="valueChanged" id="Cf2-FH-Fpi"/>
                                         </connections>
@@ -53,7 +53,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z4g-NT-0Oe">
                                                 <rect key="frame" x="0.0" y="0.0" width="301" height="30"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bill Total" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KFG-1Y-JRV">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bill Amount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KFG-1Y-JRV">
                                                         <rect key="frame" x="0.0" y="0.0" width="183" height="30"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                         <color key="textColor" red="1" green="0.93696835820000002" blue="0.86277927430000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -86,9 +86,9 @@
                                                             <constraint firstAttribute="width" constant="173" id="yaf-IX-BVT"/>
                                                         </constraints>
                                                         <segments>
-                                                            <segment title="15%"/>
-                                                            <segment title="18%"/>
                                                             <segment title="20%"/>
+                                                            <segment title="23%"/>
+                                                            <segment title="25%"/>
                                                         </segments>
                                                         <color key="tintColor" red="0.18385488137620642" green="1" blue="0.19204718206596871" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <connections>

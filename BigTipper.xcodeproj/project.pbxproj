@@ -13,6 +13,7 @@
 		A092E9F62146F7EA005D7EC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A092E9F52146F7EA005D7EC6 /* Assets.xcassets */; };
 		A092E9F92146F7EA005D7EC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A092E9F72146F7EA005D7EC6 /* LaunchScreen.storyboard */; };
 		A092EA0121472FE2005D7EC6 /* BillAmountTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A092EA0021472FE2005D7EC6 /* BillAmountTextField.swift */; };
+		A092EA0321474F35005D7EC6 /* ColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A092EA0221474F35005D7EC6 /* ColorTheme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A092E9F82146F7EA005D7EC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A092E9FA2146F7EA005D7EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A092EA0021472FE2005D7EC6 /* BillAmountTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillAmountTextField.swift; sourceTree = "<group>"; };
+		A092EA0221474F35005D7EC6 /* ColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				A092E9EE2146F7E8005D7EC6 /* AppDelegate.swift */,
 				A092E9F02146F7E8005D7EC6 /* ViewController.swift */,
+				A092EA0221474F35005D7EC6 /* ColorTheme.swift */,
 				A092E9F22146F7E8005D7EC6 /* Main.storyboard */,
 				A092E9F52146F7EA005D7EC6 /* Assets.xcassets */,
 				A092E9F72146F7EA005D7EC6 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A092E9F12146F7E8005D7EC6 /* ViewController.swift in Sources */,
+				A092EA0321474F35005D7EC6 /* ColorTheme.swift in Sources */,
 				A092EA0121472FE2005D7EC6 /* BillAmountTextField.swift in Sources */,
 				A092E9EF2146F7E8005D7EC6 /* AppDelegate.swift in Sources */,
 			);
