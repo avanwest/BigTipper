@@ -23,20 +23,15 @@ The following **additional** features are implemented:
 - [x] Toggle Switch to switch from light to dark mode.
 
 ## Video Walkthrough 
-
-Here's a walkthrough of implemented user stories:
-
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+![][BigTipper_userscreen.gif
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Getting the output card to lineup evenly. 
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2018] [Adam vanWestrienen]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
