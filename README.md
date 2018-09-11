@@ -23,7 +23,8 @@ The following **additional** features are implemented:
 - [x] Toggle Switch to switch from light to dark mode.
 
 ## Video Walkthrough 
-![][./Images/BigTipper_userscreen.gif]
+![](Images/BigTipper_launchscreen.png)
+![](Images/BigTipper_userscreen.gif)
 
 ## Notes
 
