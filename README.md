@@ -24,7 +24,7 @@ The following **additional** features are implemented:
 
 ## Video Walkthrough 
 ![](Images/BigTipper_launchscreen.png)
-![](Images/BigTipper_userscreen.gif)
+![](Images/BigTipper_newUserScreen.gif)
 
 ## Notes
 
