@@ -118,6 +118,8 @@ class ViewController: UIViewController {
         
         view.backgroundColor = theme.viewControllerBackgroundColor
         
+        themeSwitch.onTintColor = theme.accentColor
+        
         headerView.backgroundColor = theme.primaryColor
         titleLabel.textColor = theme.primaryTextColor
         
@@ -151,6 +153,8 @@ class ViewController: UIViewController {
     
     @IBAction func resetButtonTapped(_ sender: UIButton) {
          self.billAmountTextField.text = ""
+         self.tipAmountLabel.text = "$0.00"
+         self.totalAmountLabel.text = "$0.00"
         
     }
     

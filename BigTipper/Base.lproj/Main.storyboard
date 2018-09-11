@@ -146,10 +146,6 @@
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Amount" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OgW-vp-cvl">
                                                         <rect key="frame" x="0.0" y="0.0" width="150.5" height="24"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="110" id="7Ca-RU-9Zn"/>
-                                                            <constraint firstAttribute="width" constant="110" id="FHh-gQ-ESU"/>
-                                                        </constraints>
                                                         <fontDescription key="fontDescription" type="system" weight="light" pointSize="20"/>
                                                         <color key="textColor" red="0.1589178698" green="0.16430044420000001" blue="0.1021086022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -167,34 +163,15 @@
                                             </stackView>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="W4Z-IQ-tJ7" firstAttribute="centerX" secondItem="rfr-Vh-jAg" secondAttribute="centerX" id="9ge-Oy-vIT"/>
-                                            <constraint firstItem="8oe-Wd-06S" firstAttribute="leading" secondItem="rfr-Vh-jAg" secondAttribute="leading" constant="22" id="FzV-Xf-W3N"/>
-                                            <constraint firstItem="W4Z-IQ-tJ7" firstAttribute="leading" secondItem="rfr-Vh-jAg" secondAttribute="leading" constant="22" id="LTd-FT-fUe"/>
-                                            <constraint firstItem="BkW-Ah-Uua" firstAttribute="width" secondItem="rfr-Vh-jAg" secondAttribute="width" id="Pex-Wt-1NV"/>
-                                            <constraint firstItem="WgW-1R-2wq" firstAttribute="width" secondItem="rfr-Vh-jAg" secondAttribute="width" id="Vch-fV-aNp"/>
-                                            <constraint firstItem="W4Z-IQ-tJ7" firstAttribute="width" secondItem="rfr-Vh-jAg" secondAttribute="width" id="bTj-ry-fdS"/>
-                                            <constraint firstAttribute="trailing" secondItem="W4Z-IQ-tJ7" secondAttribute="trailing" constant="22" id="bUV-mh-y46"/>
                                             <constraint firstItem="W4Z-IQ-tJ7" firstAttribute="width" secondItem="rfr-Vh-jAg" secondAttribute="width" id="ftP-VF-5da"/>
-                                            <constraint firstItem="8oe-Wd-06S" firstAttribute="width" secondItem="rfr-Vh-jAg" secondAttribute="width" id="kjj-2b-rnx"/>
-                                            <constraint firstItem="8oe-Wd-06S" firstAttribute="centerX" secondItem="rfr-Vh-jAg" secondAttribute="centerX" id="lhS-xp-4L1"/>
-                                            <constraint firstAttribute="trailing" secondItem="W4Z-IQ-tJ7" secondAttribute="trailing" constant="22" id="sYS-5H-E0d"/>
-                                            <constraint firstItem="W4Z-IQ-tJ7" firstAttribute="leading" secondItem="rfr-Vh-jAg" secondAttribute="leading" constant="22" id="w5q-bC-pLs"/>
-                                            <constraint firstItem="8oe-Wd-06S" firstAttribute="width" secondItem="rfr-Vh-jAg" secondAttribute="width" id="xL0-Sz-cNj"/>
-                                            <constraint firstAttribute="trailing" secondItem="8oe-Wd-06S" secondAttribute="trailing" constant="22" id="xPO-bc-6k6"/>
                                         </constraints>
                                     </stackView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="rfr-Vh-jAg" secondAttribute="trailing" constant="22" id="MFp-VZ-Jm7"/>
-                                    <constraint firstAttribute="trailing" secondItem="rfr-Vh-jAg" secondAttribute="trailing" constant="22" id="Mj9-Ee-XgD"/>
                                     <constraint firstItem="rfr-Vh-jAg" firstAttribute="leading" secondItem="Iu4-3g-8Vk" secondAttribute="leading" constant="22" id="Txf-t7-gmM"/>
-                                    <constraint firstItem="rfr-Vh-jAg" firstAttribute="leading" secondItem="Iu4-3g-8Vk" secondAttribute="leading" constant="22" id="YVq-Lh-k7Y"/>
-                                    <constraint firstItem="rfr-Vh-jAg" firstAttribute="centerX" secondItem="Iu4-3g-8Vk" secondAttribute="centerX" id="eMZ-hu-aCG"/>
-                                    <constraint firstItem="rfr-Vh-jAg" firstAttribute="centerX" secondItem="Iu4-3g-8Vk" secondAttribute="centerX" id="jIF-2a-jf7"/>
                                     <constraint firstItem="rfr-Vh-jAg" firstAttribute="centerY" secondItem="Iu4-3g-8Vk" secondAttribute="centerY" id="kRC-sW-WBR"/>
-                                    <constraint firstItem="rfr-Vh-jAg" firstAttribute="centerY" secondItem="Iu4-3g-8Vk" secondAttribute="centerY" id="m8O-wx-moo"/>
-                                    <constraint firstItem="rfr-Vh-jAg" firstAttribute="leading" secondItem="Iu4-3g-8Vk" secondAttribute="leading" constant="22" id="qPE-mB-74E"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hE9-P7-3nb">
