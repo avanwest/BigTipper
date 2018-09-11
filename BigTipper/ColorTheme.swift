@@ -11,8 +11,6 @@ import UIKit
 
 struct ColorTheme {
     
-    // MARK: - Instance Vars
-    
     let isDefaultStatusBar: Bool
     let viewControllerBackgroundColor: UIColor
     

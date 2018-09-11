@@ -10,10 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    // 1
     var isDefaultStatusBar = true
     
-    // 2
     override var preferredStatusBarStyle: UIStatusBarStyle {
         return isDefaultStatusBar ? .default : .lightContent
     }
@@ -57,7 +55,8 @@ class ViewController: UIViewController {
     }
 
     func calculate() {
-        // dismiss keyboard
+        
+        // dismiss the keyboard
         if self.billAmountTextField.isFirstResponder {
             self.billAmountTextField.resignFirstResponder()
         }
@@ -86,7 +85,6 @@ class ViewController: UIViewController {
         
         let totalAmount = roundedBillAmount + roundedTipAmount
         
-        // Update UI
         self.billAmountTextField.text = String(format: "%.2f", roundedBillAmount)
         self.tipAmountLabel.text = String(format: "%.2f", roundedTipAmount)
         self.totalAmountLabel.text = String(format: "%.2f", totalAmount)
